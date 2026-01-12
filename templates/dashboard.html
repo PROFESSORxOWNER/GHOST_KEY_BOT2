@@ -1,0 +1,4 @@
+{% for o in orders %}
+Order {{o._id}} - {{o.status}}
+<a href="/approve/{{o._id}}">Approve</a><br>
+{% endfor %}
