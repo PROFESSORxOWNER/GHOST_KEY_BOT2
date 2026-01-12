@@ -1,3 +1,4 @@
+print("BOT STARTED")
 from flask import Flask, render_template, request, redirect, session
 from db import orders, accounts
 from config import ADMIN_USER, ADMIN_PASS, ADMIN_ID
